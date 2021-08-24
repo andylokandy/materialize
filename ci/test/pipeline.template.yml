@@ -375,7 +375,6 @@ steps:
       - metabase-demo
     trigger: deploy
     async: true
-    branches: "main v*.*"
     build:
       commit: "$BUILDKITE_COMMIT"
       branch: "$BUILDKITE_BRANCH"
